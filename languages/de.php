@@ -465,11 +465,24 @@ Um ein Widget wieder zu entfernen, ziehe es einfach zurück in den Bereich der <
 	'admin:user:opt:description' => "Acountinformationen und Benutzeraccounts bearbeiten.",
 
 	'admin:site' => "Administation Deiner Community-Seite",
+	'admin:settings:advanced/site_secret' => 'Geheimschlüssel',
 	'admin:site:description' => "Hier kannst Du einige globale Einstellungen für Deine Community-Seite vornehmen.",
+	'admin:settings:advanced:site_secret' => 'Geheimschlüssel',
 	'admin:site:opt:linktext' => "Community-Seite konfigurieren...",
 	'admin:site:opt:description' => "Konfigurieren von technisch- und nicht-technisch-spezifischen Einstellungen der Community-Seite.",
 	'admin:site:access:warning' => "Eine Änderung des Zugangslevels betrifft nur die Seiteninhalte, die nach der Änderung erstellt werden.",
 
+	'admin:site:secret:intro' => 'Elgg verwendet einen seitenspezifischen Geheimschlüssel, um darauf basierend Sicherheits-Token zu generieren, die für verschiedenen Authentifizierungszwecke verwendet werden.',
+        'admin:site:secret_regenerated' => "Der Geheimschlüssel Deiner Community-Seite wurde neu erzeugt.",
+        'admin:site:secret:regenerate' => "Geheimschlüssel neu erzeugen",
+        'admin:site:secret:regenerate:help' => "Anmerkung: dies kann einigen Benutzern Deiner Seite leider zwangsläufig einige Unannehmlichkeiten bereiten, da als Folge davon die Authentifizierungs-Token beispielsweise in den Cookies für die persistente Anmeldung, in den Validierungs-Emails und den Einladungscodes, die noch mit dem alten Geheimschlüssel erzeugt wurden, nicht mehr gültig sind.",
+        'site_secret:current_strength' => 'Verschlüsselungsstärke',
+        'site_secret:strength:weak' => "Schwach",
+        'site_secret:strength_msg:weak' => "Wir empfehlen nachdrücklich, dass Du den Geheimschlüssel Deiner Community-Seite neu erzeugst.",
+        'site_secret:strength:moderate' => "Moderat",
+        'site_secret:strength_msg:moderate' => "Wir empfehlen, den Geheimschlüssel Deiner Community-Seite neu zu erzeugen, um die höchstmögliche Sicherheit für Deine Community-Seite zu gewährleisten.",
+        'site_secret:strength:strong' => "Stark",
+        'site_secret:strength_msg:strong' => "&#x2713; die Verschlüsselungsstärke des Geheimschlüssels Deiner Community-Seite ist ausreichend hoch.",
 	'admin:plugins' => "Tool-Verwaltung",
 	'admin:plugins:description' => "Hier kannst Du die auf Deiner Community-Seite installierten Tools (Plugins) verwalten und hast Zugriff auf die von ihnen angebotenen Konfigurationsoptionen.",
 	'admin:plugins:opt:linktext' => "Tools konfigurieren...",
@@ -773,6 +786,8 @@ Oder Du kannst die Zugangsinformationen für Deine Elgg-Datenbank im Folgenden e
 	'upgrading' => 'Aktualisieren...',
 	'upgrade:db' => 'Deine Datenbank wurde aktualisiert.',
 	'upgrade:core' => 'Deine Elgg-Installation wurde aktualisiert.',
+	'upgrade:site_secret_warning:moderate' => "Es ist emfehlenswert, den Geheimschlüssel Deiner Community-Seite neu erzeugen zu lassen, um die Sicherheit für Deine Seite zu verbessern. Siehe \"Geheimschlüssel\".",
+        'upgrade:site_secret_warning:weak' => "Wir empfehlen nachdrücklich, den Geheimschlüssel Deiner Community-Seite neu erzeugen zu lassen, um die Sicherheit für Deine Seite zu verbessern. Siehe \"Geheimschlüssel\".",
 
 /**
  * Welcome
